@@ -9,7 +9,6 @@ A Python-based web scraper that extracts listings of **car covers** from [OLX In
 
 - Headless and GUI browser support
 - Handles popups and anti-bot measures
-- Uses multiple CSS selectors for resilience against layout changes
 - Scrolls and waits for dynamic content to load
 - Parses multiple pages (pagination supported)
 - Saves structured data in CSV format
@@ -86,13 +85,6 @@ pip install chromedriver-autoinstaller
   - Make sure ChromeDriver matches your Chrome version
   - Download from: [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 👨‍💻 Author
 
